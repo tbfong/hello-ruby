@@ -15,3 +15,12 @@
 # Learn to read the documentation!
 # http://ruby-doc.org/core-2.5.1/Array.html
 
+list_one = ["chicken", "kale", "broccoli", "steak", "bagels"]
+list_two = ["chips", "bagels", "perogis", "yogurt"]
+shared_list = list_one + list_two
+sorted_list = shared_list.sort
+unique_list = sorted_list.uniq
+
+
+# puts (list_One + list_two).sort.uniq 
+puts unique_list

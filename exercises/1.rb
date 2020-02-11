@@ -21,3 +21,11 @@
 # To rectify this, you can convert the number into a string
 # "i would like #{5} tacos"
 
+
+Dice_1 = rand(1..6)
+Dice_2 = rand(1..6)
+Total = Dice_1 + Dice_2
+
+puts "Dice One " + "#{Dice_1}" 
+puts "Dice Two " + "#{Dice_2}"
+puts "The Total Is: " + "#{Total}"
